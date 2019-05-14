@@ -1,5 +1,5 @@
-FA_ASSET_DESC_PUB
-
+--FA_ASSET_DESC_PUB remarked
+ 
 select owner, object_name, object_type, 
 TO_CHAR(created, 'DD-MON-YYYY HH24:MI:SS') created,
 TO_CHAR(last_ddl_time, 'DD-MON-YYYY HH24:MI:SS') updated,
